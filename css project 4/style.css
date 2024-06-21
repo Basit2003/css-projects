@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+#nav-part-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gola{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    gap: 30px;
+    border-radius: 50%;
+}
+#nav-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#nav-part-2 h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+#nav-part-2 h4 span{
+       color: grey;
+       margin-left: 20px;
+}
+#nav2{
+    height: 40px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 40px;
+}
+#nav2 h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#content{
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-color: aqua; */
+}
+#text{
+    height: 45%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    overflow-x: auto;
+}
+#text::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+#text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.elem h1{
+    font-size: 100px;
+    font-weight: 50;
+    
+
+}
+#image{
+    height: 55%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow-x: auto;
+    display: flex;
+    
+    
+}
+#image::-webkit-scrollbar{
+    display: none;
+}
+#image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}

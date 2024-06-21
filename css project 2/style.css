@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+    /* height: 40%; */
+    width: 100%;
+    padding: 40px 80px;
+    /* background-color: red; */
+}
+#center h1{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+}
+#center-in{
+    height: 130px;
+    width: 100%;
+     /* background-color: red;  */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 25px;
+}
+
+.elem{
+    padding: 18px 0;
+    /* background-color: yellow; */
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 15px ;
+    font-weight: 600;
+    opacity: 0;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover{
+    background-color: rgb(162, 158, 158);
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    background-image:url(https://images.unsplash.com/photo-1537465978529-d23b17165b3b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+}
