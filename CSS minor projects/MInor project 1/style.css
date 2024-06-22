@@ -215,6 +215,132 @@ html , body{
     height: 70%;
     width: 100%;
     object-fit: cover;
+}
+#bottom{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 1.5vw;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#bottom h5{
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 1.9vw;
+    width: 46%;
+}
+#bottom p{
+    font-size: 1vw;
+    width: 40%;
+    font-weight: 600;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 5vw 4vw;
+}
+#page4>h1{
+    text-align: center;
+    font-family: monument;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+}
+.elem{
+    height: 16vh;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    position: relative;
+}
+.elem h4{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    width: 6%;
+    font-weight: 500;
+}
+.elem:nth-last-child(1){
+    border-bottom: 2px solid black;
 
+}
+.elem .elem-part2{
+    width: 45%;
+    /* font-weight: 600; */
+}
+.elem .elem-part2 h1{
+    font-size: 2.7vw;
+    font-weight: 600;
+}
+.elem .elem-part2 h5{
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.elem img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    object-position: center;
+}
+.elem:hover img{
+    opacity: 1;
+    left: 24%;
+}
+.elem:nth-last-child(1) img{
+    left: 40%;
+    /* transition: all ease 0.5s; */
+    
+
+}
+.elem:nth-last-child(3) img{
+    left:40%
+
+}
+#marque{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0.5vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#marque h1{
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+    font-weight: 900;
+    color: transparent;
+    margin-right: 16px;
+    font-family: monument;
+    animation: move 2s linear infinite;
+}
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc( -100% - 20px ));
+    }
+    
+}
+#footer{
+    width: 100%;
+    height: 100%;
 
 }
